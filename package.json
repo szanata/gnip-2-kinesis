@@ -1,0 +1,21 @@
+{
+  "name": "gnip-kinesis",
+  "version": "0.0.2",
+  "description": "Small micro service to connect GNIP power track to Kinesis",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.503.0",
+    "gnip": "^2.2.3",
+    "pm2": "^3.5.1"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "start": "pm2 start index.js -f -i 1 --merge-logs --env production && pm2 logs --raw"
+  },
+  "repository": {
+    "url": "https://github.com/szanata/gnip-2-kinesis.git"
+  },
+  "license": "GPL-3.0"
+}

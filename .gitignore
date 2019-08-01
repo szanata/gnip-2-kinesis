@@ -1,0 +1,5 @@
+# ignoring some stuff
+node_modules
+
+# local env config
+.env
