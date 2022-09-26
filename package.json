@@ -8,7 +8,7 @@
   "dependencies": {
     "aws-sdk": "^2.503.0",
     "gnip": "^2.2.3",
-    "pm2": "^3.5.1"
+    "pm2": "^5.2.0"
   },
   "scripts": {
     "lint": "eslint ./ --fix",
